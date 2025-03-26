@@ -1,0 +1,112 @@
+.first {
+    align-items: center;
+}
+
+span {
+    color: #0056b3;
+}
+
+#one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.logo h2 {
+    font-size: 30px;
+    font-family: cursive;
+    margin: 0;
+}
+
+.logo p {
+    margin-top: 0;
+    font-size: 15px;
+    padding-left: 15px;
+    color: rgb(69, 152, 187);
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    color: #0056b3;
+}
+
+.number img {
+    width: 20px;
+    height: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+#mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+select,
+main button {
+    width: 400px;
+    height: 50px;
+    border-radius: 3px;
+    padding-left: 20px;
+    cursor: pointer;
+    border: solid 2px;
+}
+
+option {
+    background-color: rgb(43, 39, 39);
+    color: white;
+}
+
+main p {
+    font-size: 15px;
+    font-weight: bold
+}
+
+#continue {
+    color: white;
+    background-color: #66a3e6;
+    font-size: 20px;
+    border: none;
+}
+
+#continue:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.foot {
+    background-color: rgb(226, 224, 224);
+    padding-left: 100px;
+    padding-right: 10;
+    margin-bottom: 0;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+body {
+    margin: 0;
+}
+
+input {
+    width: 3000px;
+    height: 50px;
+}
